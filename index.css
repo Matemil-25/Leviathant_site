@@ -3,6 +3,7 @@ html
     height: 100%;
     background:linear-gradient(to bottom, #5f8df1 ,#05056d );
     background-size: cover;
+    scroll-behavior: smooth;
     font-family: cursive;
 }   
 
@@ -10,6 +11,7 @@ body
 {
     color: white;
     font-family: cursive;
+    font-size: 16px;
 }
 
 .NavBar
@@ -49,7 +51,32 @@ a[href^="https"]
 {
     color : #ddddff
 }
+
 a[href^="https"]:hover
 {
     font-size: 20px;
+}
+
+.Sommaire
+{
+    border-right : 5px solid #777;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.Sommaire ol li
+{
+    cursor: pointer;
+}
+
+.Sommaire ol li a[href^="#"]
+{
+    color : #ffffff
+}
+
+.Sommaire ol li a[href^="#"]:hover
+{
+    font-size: 16px;
+    color : #ddddff
 }
