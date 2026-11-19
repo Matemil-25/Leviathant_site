@@ -26,9 +26,30 @@ body
 
 button
 {
-    background-color: #ff9900;
+    background-color: #ff7700;
     color: #ffffff;
     border: none;
     font-family: cursive;
+    font-size: 15px;
     cursor: pointer;
+    border: solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover
+{
+    background-color: #ffaa00;
+    font-size: 25px;
+    border-left:7px #ffffff solid;
+    border-right:7px #ffffff solid;
+}
+
+a[href^="https"]
+{
+    color : #ddddff
+}
+a[href^="https"]:hover
+{
+    font-size: 20px;
 }
