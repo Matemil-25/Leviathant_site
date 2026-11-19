@@ -33,7 +33,7 @@ body
     display: flex;
 }
 
-.NavBar button
+.NavBar a[href^="Html"] button
 {
     background:linear-gradient(to bottom, #ff7700 ,#ee6600 );
     color: #ffffff;
@@ -43,10 +43,10 @@ body
     cursor: pointer;
     border: solid transparent;
     transition: all 0.3s ease;
-    width: 50%;
+    width: 100%;
 }
 
-button:hover
+a[href^="Html"] button:hover
 {
     background:linear-gradient(to bottom, #ff9944 ,#ffbb55 );
     font-size: 25px;
@@ -55,7 +55,7 @@ button:hover
     border-top: 0px;
     text-shadow:3px 3px #f70;
 }
-button:focus
+a[href^="Html"] button:focus
 {
     color :#966;
     background:linear-gradient(to bottom, #fe3,#feb);
