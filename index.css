@@ -9,6 +9,7 @@ html
 body
 {
     color: white;
+    font-family: cursive;
 }
 
 .NavBar
@@ -21,4 +22,12 @@ body
     background-color: #ff7700;
     align-items: bottom;
     padding: 0 20 px;
+}
+
+button
+{
+    background-color: #ff7700;
+    color: #ffffff;
+    border: none;
+    font-family: cursive;
 }
