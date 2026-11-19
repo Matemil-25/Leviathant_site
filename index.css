@@ -1,7 +1,7 @@
 html
 {
     height: 100%;
-    background:linear-gradient(to bottom, #5f8df1 ,#05056d );
+    background:linear-gradient(to bottom, #5f8df1 ,#00115a );
     background-size: cover;
     scroll-behavior: smooth;
     font-family: cursive;
@@ -27,7 +27,7 @@ body
     left: 0;
     width: 100%;
     height: 95px;
-    background-color: #ff7700;
+    background:linear-gradient(to bottom, #ff7700 ,#ee6600 );
     align-content: center;
     padding: 0 20 px;
     display: flex;
@@ -35,7 +35,7 @@ body
 
 .NavBar button
 {
-    background-color: #ff7700;
+    background:linear-gradient(to bottom, #ff7700 ,#ee6600 );
     color: #ffffff;
     border: none;
     font-family: cursive;
@@ -48,7 +48,7 @@ body
 
 button:hover
 {
-    background-color: #fa0;
+    background:linear-gradient(to bottom, #ff9944 ,#ffbb55 );
     font-size: 25px;
     border:7px #fff solid;
     border-bottom:3px #fff solid ;
@@ -58,7 +58,7 @@ button:hover
 button:focus
 {
     color :#966;
-    background-color: #ff7;
+    background:linear-gradient(to bottom, #fe3,#feb);
     font-size: 25px;
 }
 
