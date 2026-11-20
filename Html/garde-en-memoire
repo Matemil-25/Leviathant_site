@@ -1,0 +1,39 @@
+        <nav class="Sommaire">  
+            <h1>Sommaire :</h1>
+            <ol>
+                <li> <a href="#Présentation">Présentation</a> </li>
+                <li> <a href="#Univers">Univers</a> </li>
+            </ol>
+        </nav>
+
+        <h2 id="#Présentation">À propos :</h2>
+            <p>C'est un Jeux de rôle créer par mes soins inspirer du Manhwa "<a href="https://www.webtoons.com/fr/sf/leviathan/list?title_no=7320" target="_blank">"Leviathant deep water</a>" et du jeu "<a href="https://store.steampowered.com/app/648800/Raft/?l=french" target="_blank">Raft</a>"</p>
+            <h2 id="#Univers">L'univers :</h2>
+            <p>Les joueurs ou joueuses sont plongé/es sur une planète qui s'appelle Voyda, une planète qui à subit une catastrophe qui changit la face du monde </p>
+
+
+            .Sommaire
+{
+    border-right : 5px solid #77d;
+    border-width: 100%;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.Sommaire ol li
+{
+    cursor: pointer;
+}
+
+.Sommaire ol li a[href^="#"]
+{
+    color : #ffffff;
+    text-decoration: none;
+}
+
+.Sommaire ol li a[href^="#"]:hover
+{
+    font-size: 16px;
+    color : #ddddff
+}

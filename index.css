@@ -32,29 +32,5 @@ a[href^="https"]:hover
     text-decoration: underline;
 }
 
-.Sommaire
-{
-    border-right : 5px solid #77d;
-    border-width: 100%;
-    padding: 15px 20px;
-    display: inline-block;
-    font-size: 12px;
-}
 
-.Sommaire ol li
-{
-    cursor: pointer;
-}
-
-.Sommaire ol li a[href^="#"]
-{
-    color : #ffffff;
-    text-decoration: none;
-}
-
-.Sommaire ol li a[href^="#"]:hover
-{
-    font-size: 16px;
-    color : #ddddff
-}
 
